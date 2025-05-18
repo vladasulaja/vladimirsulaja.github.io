@@ -21,4 +21,4 @@ Stay tuned for more!
   <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn" style="width: 24px; height: 24px;">
 </a>
 
-</div>
+</div> 
