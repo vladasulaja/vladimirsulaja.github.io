@@ -8,10 +8,12 @@ body {
 .container {
   max-width: 700px;
   margin: 4rem auto;
-  padding: 2rem;
+  padding: 6rem 2rem 2rem 2rem; /* top padding increased for navbar */
   background: white;
-  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  line-height: 1.6;
 }
+
 
 .navbar {
   position: fixed;
