@@ -11,7 +11,7 @@
 
 <img src="photo.jpg" alt="My Photo" style="border-radius: 8px; max-width: 120px; display: block; margin: 1rem auto;">
 
-I graduated from the University of Zurich, where I conducted research in International finance, empirical banking, the macroeconomic effects of automation.
+I hold a Ph.D. in Economics from the University of Zurich, where I conducted research in international finance, empirical banking, the macroeconomic effects of automation. I am currently working as a Quantitative Analyst at BIT Capital.
 
 This page will feature selected blog articles, models, and code that reflect my work and interests in quantitative topics such as global macroeconomics and finance, econometrics, and similar.
 
