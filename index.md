@@ -23,9 +23,13 @@ I hold a Ph.D. in Economics from the University of Zurich, where I conducted res
 This page features selected blog articles, models, and code that reflect my work and interests in global macroeconomics, finance, and econometrics.
 
 
-<a href="https://www.linkedin.com/in/vladimir-sulaja-43686550" target="_blank">
-  <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn" style="width: 24px; height: 24px;">
-</a>
+<div style="margin-top: 1.5rem;">
+  <a href="https://www.linkedin.com/in/vladimir-sulaja-43686550" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg"
+         alt="LinkedIn"
+         style="width: 24px; height: 24px;">
+  </a>
+</div>
 
 <h2 id="projects">Projects</h2>
 
