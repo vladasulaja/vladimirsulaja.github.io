@@ -30,7 +30,8 @@ Stay tuned for more!<br />
 </a>
 
 </div> 
-<body>
+</body>
+</html>
 
 
 
