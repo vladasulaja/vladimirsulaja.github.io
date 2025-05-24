@@ -40,7 +40,8 @@ This page features selected blog articles, models, and code that reflect my work
 </div>
 
 <div class="project">
-  <h3>Factor Shares and Business Cycles in EMEs and DEs</h3>
+  <h3>Emerging Market Business Cycles: The Story of
+ Factor Shares</h3>
   <p>
     This paper investigates how differences in factor shares across countries contribute to the differences in business cycle properties between emerging market economies (EMEs) and developed economies (DEs). Using empirical data and standard international macroeconomic models, the paper shows that capital shares are strongly correlated with key moments such as the cyclicality of the trade balance and volatility of output. The findings suggest that differences in labor and capital income shares, observable across countries, play a central role in shaping macroeconomic dynamics.
   </p>
