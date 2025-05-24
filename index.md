@@ -21,7 +21,6 @@ I hold a Ph.D. in Economics from the University of Zurich, where I conducted res
 
 This page features selected blog articles, models, and code that reflect my work and interests in global macroeconomics, finance, and econometrics.
 
-Stay tuned for more!
 
 <a href="https://www.linkedin.com/in/vladimir-sulaja-43686550" target="_blank">
   <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn" style="width: 24px; height: 24px;">
@@ -32,8 +31,7 @@ Stay tuned for more!
 <div class="project">
   <h3>Consumption Slowdown after the Great Recession</h3>
   <p>
-    This project studies the persistent slowdown in household consumption in advanced economies following the 2008–09 financial crisis.
-    It investigates the role of expectations, debt overhang, and structural changes in labor markets as potential explanations.
+    Consumption growth in the United States slowed markedly following the 2007–2009 financial crisis. We argue that costly regulatory interventions targeting banks with foreclosure-related misconduct contributed to this decline by constraining credit supply. Using variation in county-level exposure to affected banks, we show that tighter regulatory controls reduced mortgage loan origination, leading to weaker house price recoveries and lower household wealth. We find that consumption growth slowed more in counties more exposed to these banks, consistent with a wealth effect transmitted through housing markets. The decline in mortgage lending reflects a reduction in the number of loans rather than in average loan size, suggesting that regulation operated primarily through extensive-margin credit supply.
   </p>
   <p><a href="https://simondzs.github.io/files/jmp.pdf" target="_blank">Read paper</a></p>
 </div>
