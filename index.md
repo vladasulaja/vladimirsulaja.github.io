@@ -15,7 +15,8 @@ layout: none
 
 <img src="photo.jpg" alt="My Photo" style="border-radius: 8px; max-width: 120px; display: block; margin: 1rem auto;">
 
-## <a id="about">About Me</a>
+<h2 id="about">About Me</h2>
+
 
 I hold a Ph.D. in Economics from the University of Zurich, where I conducted research in international finance, empirical banking, and the macroeconomic effects of automation. I am currently working as a Quantitative Analyst at BIT Capital.
 
@@ -26,7 +27,7 @@ This page features selected blog articles, models, and code that reflect my work
   <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn" style="width: 24px; height: 24px;">
 </a>
 
-## <a id="projects">Projects</a>
+<h2 id="projects">Projects</h2>
 
 <div class="project">
   <h3>Consumption Slowdown after the Great Recession</h3>
