@@ -1,4 +1,12 @@
-<link rel="stylesheet" href="style.css">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Vladimir Sulaja – Personal Webpage</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+  <link rel="stylesheet" href="style.css">
 
 <div class="navbar">
   <a href="#about">About</a>
@@ -22,3 +30,7 @@ Stay tuned for more!<br />
 </a>
 
 </div> 
+<body>
+
+
+
