@@ -17,11 +17,9 @@ layout: none
 
 <h2 id="about">About Me</h2>
 
-
 I hold a Ph.D. in Economics from the University of Zurich, where I conducted research in international finance, empirical banking, and the macroeconomic effects of automation. I am currently working as a Quantitative Analyst at BIT Capital.
 
 This page features selected blog articles, models, and code that reflect my work and interests in global macroeconomics, finance, and econometrics.
-
 
 <div style="margin-top: 1.5rem;">
   <a href="https://www.linkedin.com/in/vladimir-sulaja-43686550" target="_blank">
@@ -38,7 +36,15 @@ This page features selected blog articles, models, and code that reflect my work
   <p>
     Consumption growth in the United States slowed markedly following the 2007–2009 financial crisis. We argue that costly regulatory interventions targeting banks with foreclosure-related misconduct contributed to this decline by constraining credit supply. Using variation in county-level exposure to affected banks, we show that tighter regulatory controls reduced mortgage loan origination, leading to weaker house price recoveries and lower household wealth. We find that consumption growth slowed more in counties more exposed to these banks, consistent with a wealth effect transmitted through housing markets. The decline in mortgage lending reflects a reduction in the number of loans rather than in average loan size, suggesting that regulation operated primarily through extensive-margin credit supply.
   </p>
-<p><a href="projects/simonsulaja-consumptionslowdown.pdf" target="_blank">Read paper</a></p>
+  <p><a href="projects/simonsulaja-consumptionslowdown.pdf" target="_blank">Read paper</a></p>
+</div>
+
+<div class="project">
+  <h3>Factor Shares and Business Cycles in EMEs and DEs</h3>
+  <p>
+    This paper investigates how differences in factor shares across countries contribute to the differences in business cycle properties between emerging market economies (EMEs) and developed economies (DEs). Using empirical data and standard international macroeconomic models, the paper shows that capital shares are strongly correlated with key moments such as the cyclicality of the trade balance and volatility of output. The findings suggest that differences in labor and capital income shares, observable across countries, play a central role in shaping macroeconomic dynamics.
+  </p>
+  <p><a href="projects/eme_bc.pdf" target="_blank">Read paper</a></p>
 </div>
 
 </div>
