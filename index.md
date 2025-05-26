@@ -47,10 +47,8 @@ This page features selected blog articles, models, and code that reflect my work
     This paper investigates how differences in factor shares across countries contribute to the differences in business cycle properties between emerging market economies (EMEs) and developed economies (DEs). Using empirical data and standard international macroeconomic models, the paper shows that capital shares are strongly correlated with key moments such as the cyclicality of the trade balance and volatility of output. The findings suggest that differences in labor and capital income shares, observable across countries, play a central role in shaping macroeconomic dynamics.
   </p>
   <p><a href="projects/eme_bc.pdf" target="_blank">Read paper</a></p>
-</div>
 
-</div>
-
+<div class="project">
 <h2>Abstract</h2>
 
 <p>
@@ -172,7 +170,11 @@ If the interest rate responds less to domestic output (due to capital mobility),
 </ul>
 
 <h2>7. Conclusion</h2>
-
 <p>
 While the consumption risk sharing literature finds small gains from financial openness, that result hinges on the omission of investment dynamics. When countries can run trade imbalances, they stabilize domestic interest rates and allocate capital more effectively in response to shocks. This amplifies the effect of productivity on investment and permanent income, resulting in <strong>significant welfare gains</strong>. These gains go far beyond what consumption smoothing alone would suggest.
 </p>
+</div>
+
+</div>
+
+
