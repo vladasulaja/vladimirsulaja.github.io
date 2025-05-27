@@ -143,6 +143,32 @@ check;
 stoch_simul(order=1, periods=5000, drop=1000, hp_filter=1600);
 </code></pre>
 
+
+<h4>4. Mechanism: Interest Rate Smoothing and Permanent Income</h4>
+<p>
+  When interest rates rise with output, investment becomes expensive exactly when productivity is high. This distorts the optimal allocation of capital: firms and households want to invest, but are discouraged by high borrowing costs. Conversely, in downturns, interest rates fall but investment opportunities are limited. This procyclicality of interest rates leads to inefficient intertemporal allocation.
+</p>
+
+<p>
+  A flexible trade balance, however, allows a country to <strong>decouple its domestic interest rate from its output</strong>. When domestic output is high, the country can run a trade deficit (import capital), preventing rates from rising too sharply. When output is low, it can run a surplus (export capital), keeping rates from falling too far.
+</p>
+
+<p>
+  This <strong>interest rate smoothing</strong> leads to higher investment when it's most productive — during times of high productivity shocks. In turn, this amplifies the capital stock in future periods and raises the path of future income.
+</p>
+
+<p>
+  Since <strong>permanent income</strong> is the present value of all future disposable income flows, a more elastic investment response leads to:
+</p>
+
+<p style="margin-left: 2rem;">
+  \( PI_t = r \cdot \left(b_t + \sum_{s=t}^{\infty} \frac{y_s - i_s}{(1 + r)^{s-t}} \right) \)
+</p>
+
+<p>
+  Higher output from more productive investment (and relatively stable consumption paths) thus raises permanent income, even if short-run consumption does not change much. This is the core reason why <strong>the welfare gains from financial openness are underestimated</strong> when the investment channel is ignored.
+</p>
+
   <h4>5. Permanent Income and Risk Sharing</h4>
   <p>
     \( \Delta U = E\left[\sum \beta^t \log(c_t^{\text{autarky}})\right] - E\left[\sum \beta^t \log(c_t^{\text{open}})\right] \)
