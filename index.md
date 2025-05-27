@@ -79,22 +79,20 @@ This page features selected blog articles, models, and code that reflect my work
 
   <h4>2. The Model</h4>
   <ul>
-    <li><strong>Cobb-Douglas production</strong>:<br>
-      \( y_t = A_t \cdot k_{t-1}^\alpha \cdot l_t^{1-\alpha} \)
-    </li>
-    <li><strong>Capital accumulation</strong>:<br>
-      \( k_t = (1 - \delta) \cdot k_{t-1} + i_t \)
-    </li>
-    <li><strong>Budget constraint</strong>:<br>
-      \( c_t + i_t + r_t \cdot b_{t-1} = y_t \)
-    </li>
-    <li><strong>Debt evolution</strong>:<br>
-      \( b_t = c_t + i_t + r_t \cdot b_{t-1} - y_t \)
-    </li>
-    <li><strong>Interest rate rule</strong>:<br>
-      \( r_t = z_t + \phi_b \cdot b_{t-1} + \eta \cdot y_t \)
-    </li>
-  </ul>
+      <li><strong>Technology shocks:</strong> \( a_t = \rho_a a_{t-1} + \varepsilon^a_t \)</li>
+      <li><strong>Interest rate shock:</strong> \( z_t = \rho_z z_{t-1} + \varepsilon^z_t \)</li>
+      <li><strong>Interest rate rule:</strong> \( r_t = z_t + \phi_b b_{t-1} + \eta y_t \)</li>
+      <li><strong>Production:</strong> \( y_t = e^{a_t} \cdot k_{t-1}^{\alpha} \cdot l_t^{1 - \alpha} \)</li>
+      <li><strong>Investment decision:</strong><br>
+        \[
+        i_t = \phi k_{t-1} \left[ \alpha e^{a_t} k_{t-1}^{\alpha - 1} l_t^{1 - \alpha} - r_t - \theta l_t \right] + \delta k_{t-1}
+        \]
+      </li>
+      <li><strong>Capital accumulation:</strong> \( k_t = (1 - \delta) k_{t-1} + i_t \)</li>
+      <li><strong>Labor-leisure condition:</strong> \( \phi_L l_t^{\psi} = (1 - \alpha) e^{a_t} k_{t-1}^\alpha l_t^{-\alpha} \)</li>
+      <li><strong>Budget constraint:</strong> \( c_t + i_t + r_t b_{t-1} = y_t \)</li>
+      <li><strong>Debt evolution:</strong> \( b_t = c_t + i_t + r_t b_{t-1} - y_t \)</li>
+    </ul>
 
   <h4>3. Dynare Implementation</h4>
   <pre><code>
