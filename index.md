@@ -59,7 +59,7 @@ This page features selected blog articles, models, and code that reflect my work
 <div class="project">
   <h3>Investment, Interest Rates, and the Overlooked Gains from Trade Balance Flexibility</h3>
   <button onclick="toggleVisibility('shortpaper1')">Show/Hide Paper</button>
-     
+
   <h4>Abstract</h4>
   <p>
     This article explores how a flexible trade balance can significantly enhance macroeconomic stability by delinking domestic interest rates from output shocks. We show that the standard consumption risk-sharing literature underestimates the welfare gains from international financial integration by neglecting the investment channel. Using a simple small open economy DSGE model, we demonstrate that allowing for a non-zero trade balance enables economies to better manage interest rate shocks, thus facilitating higher and less volatile investment in response to productivity shifts.
@@ -165,6 +165,7 @@ stoch_simul(order=1, periods=5000, drop=1000, hp_filter=1600);
 </div>
 
 </div>
+
 <script>
   function toggleVisibility(id) {
     const el = document.getElementById(id);
@@ -175,3 +176,4 @@ stoch_simul(order=1, periods=5000, drop=1000, hp_filter=1600);
     }
   }
 </script>
+
