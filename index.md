@@ -71,23 +71,40 @@ By contrast, when the <strong>trade balance can vary</strong>, countries can bor
 
 <h2>2. The Model</h2>
 
-<p>We employ a small open economy model with:</p>
-<ul>
-  <li><strong>Cobb-Douglas production</strong>:<br>
-  \( y_t = A_t \cdot k_{t-1}^\alpha \cdot l_t^{1-\alpha} \)</li>
+- **Cobb-Douglas production**:
 
-  <li><strong>Capital accumulation</strong>:<br>
-  \( k_t = (1 - \delta) \cdot k_{t-1} + i_t \)</li>
+  $$
+  y_t = A_t \cdot k_{t-1}^\alpha \cdot l_t^{1-\alpha}
+  $$
 
-  <li><strong>Budget constraint</strong>:<br>
-  \( c_t + i_t + r_t \cdot b_{t-1} = y_t \)</li>
+- **Capital accumulation**:
 
-  <li><strong>Debt evolution</strong>:<br>
-  \( b_t = c_t + i_t + r_t \cdot b_{t-1} - y_t \)</li>
+  $$
+  k_t = (1 - \delta) \cdot k_{t-1} + i_t
+  $$
 
-  <li><strong>Interest rate rule</strong>:<br>
-  \( r_t = z_t + \phi_b \cdot b_{t-1} + \eta \cdot y_t \)</li>
-</ul>
+- **Budget constraint**:
+
+  $$
+  c_t + i_t + r_t \cdot b_{t-1} = y_t
+  $$
+
+- **Debt evolution**:
+
+  $$
+  b_t = c_t + i_t + r_t \cdot b_{t-1} - y_t
+  $$
+
+- **Interest rate rule**:
+
+  $$
+  r_t = z_t + \phi_b \cdot b_{t-1} + \eta \cdot y_t
+  $$
+
+Where:
+
+- $\phi_b$: spread sensitivity to debt  
+- $\eta$: sensitivity of interest rates to output growth
 
 <h2>3. Dynare Implementation</h2>
 
