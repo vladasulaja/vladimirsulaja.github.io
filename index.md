@@ -11,6 +11,7 @@ layout: none
 <div class="navbar">
   <a href="#about">About</a>
   <a href="#projects">Projects</a>
+  <a href="#shortpapers">Short Papers</a>
   <a href="#contact">Contact</a>
 </div>
 
@@ -53,9 +54,12 @@ This page features selected blog articles, models, and code that reflect my work
   <p><a href="projects/eme_bc.pdf" target="_blank">Read paper</a></p>
 </div>
 
+<h2 id="shortpapers">Short Papers</h2>
+
 <div class="project">
   <h3>Investment, Interest Rates, and the Overlooked Gains from Trade Balance Flexibility</h3>
-
+  <button onclick="toggleVisibility('shortpaper1')">Show/Hide Paper</button>
+     
   <h4>Abstract</h4>
   <p>
     This article explores how a flexible trade balance can significantly enhance macroeconomic stability by delinking domestic interest rates from output shocks. We show that the standard consumption risk-sharing literature underestimates the welfare gains from international financial integration by neglecting the investment channel. Using a simple small open economy DSGE model, we demonstrate that allowing for a non-zero trade balance enables economies to better manage interest rate shocks, thus facilitating higher and less volatile investment in response to productivity shifts.
@@ -140,34 +144,34 @@ stoch_simul(order=1, periods=5000, drop=1000, hp_filter=1600);
 
   <h4>5. Permanent Income and Risk Sharing</h4>
   <p>
-    Standard models of international macroeconomics often evaluate the benefits of financial integration by computing the gains from consumption risk sharing. This is usually done by comparing expected utility under autarky (no financial integration) to that under perfect consumption insurance:
-  </p>
-  <p>
     \( \Delta U = E\left[\sum \beta^t \log(c_t^{\text{autarky}})\right] - E\left[\sum \beta^t \log(c_t^{\text{open}})\right] \)
   </p>
   <p>
-    However, these models often abstract from the investment channel. They assume consumption is smoothed given an exogenous income process, but do not consider how smoother <strong>interest rates</strong> (enabled by trade balance fluctuations) allow for <strong>greater responsiveness of investment</strong> to productivity shocks.
-  </p>
-  <p>This affects <strong>permanent income</strong>:</p>
-  <p>
     \( PI_t = r \cdot \left(b_t + \sum_{s=t}^{\infty} \frac{y_s - i_s}{(1 + r)^{s-t}} \right) \)
-  </p>
-  <p>
-    If the interest rate responds less to domestic output (due to capital mobility), then investment increases more strongly after a positive productivity shock. That leads to a <strong>larger permanent income effect</strong>, increasing long-run consumption as well.
   </p>
 
   <h4>6. Policy Implications</h4>
   <ul>
-    <li><strong>Trade balance flexibility</strong> allows countries to smooth interest rates independently of domestic shocks.</li>
-    <li><strong>Investment smoothing</strong> becomes possible in addition to consumption smoothing.</li>
-    <li>This channel is especially important for <strong>emerging markets</strong>, where interest rate volatility is high and capital is scarce.</li>
-    <li>Evaluations of international financial integration should incorporate the investment channel — otherwise, they understate welfare gains.</li>
+    <li>Trade balance flexibility allows countries to smooth interest rates independently of domestic shocks.</li>
+    <li>Investment smoothing becomes possible in addition to consumption smoothing.</li>
+    <li>This is especially important for emerging markets, where interest rate volatility is high and capital is scarce.</li>
+    <li>Evaluations of international financial integration should incorporate the investment channel — or risk understating welfare gains.</li>
   </ul>
 
   <h4>7. Conclusion</h4>
   <p>
-    While the consumption risk sharing literature finds small gains from financial openness, that result hinges on the omission of investment dynamics. When countries can run trade imbalances, they stabilize domestic interest rates and allocate capital more effectively in response to shocks. This amplifies the effect of productivity on investment and permanent income, resulting in <strong>significant welfare gains</strong>. These gains go far beyond what consumption smoothing alone would suggest.
+    While the consumption risk sharing literature finds small gains from financial openness, that result hinges on the omission of investment dynamics. When countries can run trade imbalances, they stabilize domestic interest rates and allocate capital more effectively in response to shocks. This amplifies the effect of productivity on investment and permanent income, resulting in significant welfare gains.
   </p>
 </div>
 
 </div>
+<script>
+  function toggleVisibility(id) {
+    const el = document.getElementById(id);
+    if (el.style.display === "none") {
+      el.style.display = "block";
+    } else {
+      el.style.display = "none";
+    }
+  }
+</script>
