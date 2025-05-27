@@ -61,9 +61,9 @@ This page features selected blog articles, models, and code that reflect my work
   <button onclick="toggleVisibility('shortpaper1')">Show/Hide Paper</button>
 
 <div id="shortpaper1" style="display: none; margin-top: 1rem;">
-  <h4>Abstract</h4>
+  <h4>Idea</h4>
   <p>
-    This article explores how a flexible trade balance can significantly enhance macroeconomic stability by delinking domestic interest rates from output shocks. We show that the standard consumption risk-sharing literature underestimates the welfare gains from international financial integration by neglecting the investment channel. Using a simple small open economy DSGE model, we demonstrate that allowing for a non-zero trade balance enables economies to better manage interest rate shocks, thus facilitating higher and less volatile investment in response to productivity shifts.
+    This short article explores how a flexible trade balance can significantly enhance macroeconomic stability by delinking domestic interest rates from output shocks. We show that the standard consumption risk-sharing literature underestimates the welfare gains from international financial integration by neglecting the investment channel. Using a simple small open economy DSGE model, we demonstrate that allowing for a non-zero trade balance enables economies to better manage interest rate shocks, thus facilitating higher and less volatile investment in response to productivity shifts.
   </p>
 
   <h4>1. Introduction</h4>
