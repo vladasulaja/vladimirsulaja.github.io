@@ -167,6 +167,24 @@ stoch_simul(order=1, periods=5000, drop=1000, hp_filter=1600);
   Higher output from more productive investment (and relatively stable consumption paths) thus raises permanent income, even if short-run consumption does not change much. This is the core reason why <strong>the welfare gains from financial openness are underestimated</strong> when the investment channel is ignored.
 </p>
 
+<h4>Visual Results</h4>
+<p>The following charts illustrate the quantitative impact of trade balance flexibility on macroeconomic dynamics:</p>
+
+<div style="margin-bottom: 2rem;">
+  <h5>Investment and Output (HP-Filtered Correlation)</h5>
+  <img src="graphs/inv_output.png" alt="Investment and Output Correlation" style="max-width:100%; height:auto; border: 1px solid #ccc; padding: 4px;">
+</div>
+
+<div style="margin-bottom: 2rem;">
+  <h5>Interest Rate and Output (HP-Filtered Correlation)</h5>
+  <img src="graphs/ir_output.png" alt="Interest Rate and Output Correlation" style="max-width:100%; height:auto; border: 1px solid #ccc; padding: 4px;">
+</div>
+
+<div style="margin-bottom: 2rem;">
+  <h5>Present Value of Output</h5>
+  <img src="graphs/present_value.png" alt="Present Value of Output" style="max-width:100%; height:auto; border: 1px solid #ccc; padding: 4px;">
+</div>
+
   <h4>5. Permanent Income and Risk Sharing</h4>
   <p>
     \( \Delta U = E\left[\sum \beta^t \log(c_t^{\text{autarky}})\right] - E\left[\sum \beta^t \log(c_t^{\text{open}})\right] \)
