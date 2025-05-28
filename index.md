@@ -25,7 +25,7 @@ layout: none
 I hold a Ph.D. in Economics from the University of Zurich, where I conducted research in international finance, empirical banking, and the macroeconomic effects of automation. I am currently working as a Quantitative Analyst at BIT Capital.
 </p>
 <p>
-This page features selected blog articles, models, and code that reflect my work and interests in global macroeconomics, finance, and econometrics.
+This page features selected blog articles, models, and code that reflect my work and interests in applied econometrics, finance and global macroeconomics.
 </p>
 
 <div style="margin-top: 1.5rem;">
