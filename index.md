@@ -57,7 +57,7 @@ This page features selected blog articles, models, and code that reflect my work
 <h2 id="shortpapers">Short Papers</h2>
 
 <div class="project">
-  <h3>Gains from Trade</h3>
+  <h3>Dynamic Gains from Trade</h3>
   <button onclick="toggleVisibility('shortpaper1')">Show/Hide Paper</button>
 
 <div id="shortpaper1" style="display: none; margin-top: 1rem;">
