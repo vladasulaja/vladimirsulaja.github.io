@@ -93,7 +93,9 @@ This page features selected blog articles, models, and code that reflect my work
       <li><strong>Budget constraint:</strong> \( c_t + i_t + r_t b_{t-1} = y_t \)</li>
       <li><strong>Debt evolution:</strong> \( b_t = c_t + i_t + r_t b_{t-1} - y_t \)</li>
     </ul>
-
+<p>
+    Note the key term Eta in the interest rate equation. With this we want to capture the elasticity of interest rates to output. In this short article I do not want to explain what it is, but just to use it to show how it can help us explain what the benefits of financial openness of a country are.
+  </p>
 <button onclick="toggleVisibility('dynare_code')">Show/Hide Dynare Code</button>
   <h4>3. Dynare Implementation</h4>
   <pre id='dynare_code'><code>
@@ -169,7 +171,7 @@ stoch_simul(order=1, periods=5000, drop=1000, hp_filter=1600);
 </p>
 
 <h4>Visual Results</h4>
-<p>The following charts illustrate the quantitative impact of trade balance flexibility on macroeconomic dynamics:</p>
+<p>The following charts illustrate the quantitative impact of trade balance adjustment on macroeconomic dynamics:</p>
 
 <div style="margin-bottom: 2rem;">
   <h5>Investment and Output (HP-Filtered Correlation)</h5>
@@ -186,17 +188,11 @@ stoch_simul(order=1, periods=5000, drop=1000, hp_filter=1600);
   <img src="graphs/present_value.png" alt="Present Value of Output" style="max-width:100%; height:auto; border: 1px solid #ccc; padding: 4px;">
 </div>
 
-  <h4>5. Permanent Income and Risk Sharing</h4>
-  <p>
-    \( \Delta U = E\left[\sum \beta^t \log(c_t^{\text{autarky}})\right] - E\left[\sum \beta^t \log(c_t^{\text{open}})\right] \)
-  </p>
-  <p>
-    \( PI_t = r \cdot \left(b_t + \sum_{s=t}^{\infty} \frac{y_s - i_s}{(1 + r)^{s-t}} \right) \)
-  </p>
+<p>We can see that for lower values of eta, interest rate and output have lower correlation. Invesment and output become more correlated as positive productivity shocks are not attenuated by rising interest rates. As a result permanent income is higher in this economy when it is able to access international financial markets.</p>
 
-  <h4>6. Conclusion</h4>
+  <h4>5. Thoughts</h4>
   <p>
-    While the consumption risk sharing literature finds small gains from financial openness, that result hinges on the omission of investment dynamics. When countries can run trade imbalances, they stabilize domestic interest rates and allocate capital more effectively in response to shocks. This amplifies the effect of productivity on investment and permanent income, resulting in significant welfare gains.
+    While the consumption risk sharing literature finds small gains from financial openness, that result hinges on the omission of investment dynamics. When countries can run trade imbalances, they stabilize domestic interest rates and allocate capital more effectively in response to shocks. This amplifies the effect of productivity on investment and permanent income, resulting in significant welfare gains. In a simple model, lifetime consumption can increase close to 40% compared to the autarky case.
   </p>
 </div>
 </div>
