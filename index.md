@@ -94,7 +94,7 @@ This page features selected blog articles, models, and code that reflect my work
       <li><strong>Debt evolution:</strong> \( b_t = c_t + i_t + r_t b_{t-1} - y_t \)</li>
     </ul>
 <p>
-    Note the key term Eta in the interest rate equation. With this we want to capture the elasticity of interest rates to output. In this short article I do not want to explain what it is, but just to use it to show how it can help us explain what the benefits of financial openness of a country are.
+    Note the key term Eta in the interest rate equation. With this we want to capture the elasticity of interest rates to output. In this short article I do not want to explain what it is, but just to use it to show how it can help us explain what the benefits of financial openness of a country are. In addition to this model, I also use a standard close economy model with the same utility and production function, and same parametrization to represent the financial autarky case.
   </p>
 <button onclick="toggleVisibility('dynare_code')">Show/Hide Dynare Code</button>
   <h4>3. Dynare Implementation</h4>
