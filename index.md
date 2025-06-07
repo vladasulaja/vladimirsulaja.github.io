@@ -94,8 +94,9 @@ This page features selected blog articles, models, and code that reflect my work
       <li><strong>Debt evolution:</strong> \( b_t = c_t + i_t + r_t b_{t-1} - y_t \)</li>
     </ul>
 
+<button onclick="toggleVisibility('dynare_code')">Show/Hide Dynare Code</button>
   <h4>3. Dynare Implementation</h4>
-  <pre><code>
+  <pre id='dynare_code'><code>
 var c y i k b r a z l;
 varexo e_a e_z;
 
