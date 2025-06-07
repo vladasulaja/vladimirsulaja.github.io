@@ -98,7 +98,7 @@ This page features selected blog articles, models, and code that reflect my work
   </p>
 <button onclick="toggleVisibility('dynare_code')">Show/Hide Dynare Code</button>
   <h4>3. Dynare Implementation</h4>
-  <pre id='dynare_code'><code>
+  <pre id='dynare_code' style="display: none; margin-top: 1rem;"><code>
 var c y i k b r a z l;
 varexo e_a e_z;
 
