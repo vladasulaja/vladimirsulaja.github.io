@@ -57,13 +57,13 @@ This page features selected blog articles, models, and code that reflect my work
 <h2 id="shortpapers">Short Papers</h2>
 
 <div class="project">
-  <h3>Dynamic Gains from Trade</h3>
-  <button onclick="toggleVisibility('shortpaper1')">Show/Hide Paper</button>
+  <h3>Beyond Consumption: Dynamic Gains from Asset Trade</h3>
+  <button onclick="toggleVisibility('shortpaper1')">Show/Hide Post</button>
 
 <div id="shortpaper1" style="display: none; margin-top: 1rem;">
   <h4>Idea</h4>
   <p>
-    This short article explores how allowing for more financial openness can significantly enhance macroeconomic stability by delinking domestic interest rates from output shocks. I argue that standard consumption risk-sharing literature underestimates the welfare gains from international financial integration by neglecting the investment channel. Using a simple small open economy DSGE model, we demonstrate that allowing for a non-zero trade balance enables economies to better manage interest rate shocks, thus facilitating higher and less volatile investment in response to productivity shifts.
+    This short article explores how allowing for more financial openness can significantly enhance macroeconomic stability by delinking domestic interest rates from output shocks. I argue that standard consumption risk-sharing literature underestimates the welfare gains from international financial integration by neglecting the investment channel. Using a simple small open economy DSGE model, I demonstrate that allowing for a non-zero trade balance enables economies to better manage interest rate shocks, thus facilitating higher and less volatile investment in response to productivity shifts.
   </p>
 
   <h4>1. Introduction</h4>
@@ -94,7 +94,7 @@ This page features selected blog articles, models, and code that reflect my work
       <li><strong>Debt evolution:</strong> \( b_t = c_t + i_t + r_t b_{t-1} - y_t \)</li>
     </ul>
 <p>
-    Note the key term Eta in the interest rate equation. With this we want to capture the elasticity of interest rates to output. In this short article I do not want to explain what it is, but just to use it to show how it can help us explain what the benefits of financial openness of a country are. In addition to this model, I also use a standard close economy model with the same utility and production function, and same parametrization to represent the financial autarky case.
+    Note the key term Eta in the interest rate equation. With this I want to capture the elasticity of interest rates to output. In this short article I do not want to explain what it is, but just to use it to show how it can help us explain what the benefits of financial openness of a country are. In addition to this model, I also use a standard close economy model with the same utility and production function, and same parametrization to represent the financial autarky case.
   </p>
 <button onclick="toggleVisibility('dynare_code')">Show/Hide Dynare Code</button>
   <h4>3. Dynare Implementation</h4>
@@ -188,8 +188,8 @@ stoch_simul(order=1, periods=5000, drop=1000, hp_filter=1600);
   <img src="graphs/present_value.png" alt="Present Value of Output" style="max-width:100%; height:auto; border: 1px solid #ccc; padding: 4px;">
 </div>
 
-<p>We can see that for lower values of eta, interest rate and output have lower correlation. Invesment and output become more correlated as positive productivity shocks are not attenuated by rising interest rates. As a result permanent income is higher in this economy when it is able to access international financial markets.</p>
-
+<p>One can see that for lower values of eta, interest rate and output have lower correlation. Invesment and output become more correlated as positive productivity shocks are not attenuated by rising interest rates. As a result permanent income is higher in this economy when it is able to access international financial markets and can be around 35% higher compared to the closed economy case.</p>
+fsho
   <h4>5. Thoughts</h4>
   <p>
     While the consumption risk sharing literature finds small gains from financial openness, that result hinges on the omission of investment dynamics. When countries can run trade imbalances, they stabilize domestic interest rates and allocate capital more effectively in response to shocks. This amplifies the effect of productivity on investment and permanent income, resulting in significant welfare gains. In a simple model, lifetime consumption can increase close to 40% compared to the autarky case.
