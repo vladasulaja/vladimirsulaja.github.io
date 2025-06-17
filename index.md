@@ -68,13 +68,20 @@ This page features selected blog articles, models, and code that reflect my work
 
   <h4>1. Introduction</h4>
   <p>
-    The literature on international consumption risk sharing has long concluded that the welfare gains from global financial integration are small — often less than 1% of lifetime consumption. Seminal contributions by Lucas (1987), Obstfeld and Rogoff (1995), and more recently Gourinchas and Jeanne (2006) all show that the main benefit of risk sharing arises from the smoothing of consumption over time and states of nature.
+    The literature on international consumption risk sharing has long concluded that the welfare gains from global financial integration are small — often less than 1% of lifetime consumption. Seminal contributions by Lucas (1987), Obstfeld and Rogoff (1995), and more recently Gourinchas and Jeanne (2006) all show that the main benefit of risk sharing arises from the smoothing of consumption over time and states of nature. 
   </p>
   <p>
     However, these studies typically neglect an important macroeconomic channel: <strong>investment amplification through interest rate smoothing</strong>. When the trade balance is restricted (e.g., balanced every period), countries must finance investment solely through domestic savings. This tight linkage between output, interest rates, and investment introduces fragility and lowers aggregate responsiveness to shocks.
   </p>
   <p>
     By contrast, when the <strong>trade balance can vary</strong>, countries can borrow during booms (or save during busts) to stabilize interest rates and <strong>optimize capital accumulation</strong>. This mechanism generates a second-round welfare gain that traditional consumption-only models miss.
+  </p>
+  <p>
+    Previous studies have already examined the effects of financial openness on the cyclicality of investment (Mendoza, 1991), where its shown that in a SOE model, investment is less procyclical due to the possibility to borrow capital. Similarly, Correia, Neves, and Rebelo in their 1995 paper show that capital mobility reduces to co-movement of savings and investments. In this article, I want to show that it is this possibility to borrow and lend that increases permanent income of a country. I show how depending on the elasticity of trade balance with respect to output, investment can be less procyclical, which results in a higher permanent income. I do this by introducing a term in the interest rate equation, which enables us to make interest rate more or less correlated to output.
+  </p>
+
+  <p>
+    With this setup we can generate moments that correspond to countercyclical and acyclical trade balances in emerging market economies (EMEs) and developed economies (DEs), as well as countercyclical interest rates of EMEs. This further translates into less procyclical investment and higher permanent income. From here it also follows that those who benefit more from capital flows are EMEs. I will explain in the next post why I believe this is the case.
   </p>
 
   <h4>2. The Model</h4>
@@ -155,7 +162,7 @@ stoch_simul(order=1, periods=5000, drop=1000, hp_filter=1600);
 </p>
 
 <p>
-  This <strong>interest rate smoothing</strong> leads to higher investment when it's most productive — during times of high productivity shocks. In turn, this amplifies the capital stock in future periods and raises the path of future income.
+  This <strong>interest rate smoothing</strong> leads to higher investment when it's most productive — during times of high productivity shocks. In turn, this amplifies the capital stock in future periods and raises the path of future income. 
 </p>
 
 <p>
