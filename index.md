@@ -189,7 +189,7 @@ stoch_simul(order=1, periods=5000, drop=1000, hp_filter=1600);
 </div>
 
 <p>One can see that for lower values of eta, interest rate and output have lower correlation. Invesment and output become more correlated as positive productivity shocks are not attenuated by rising interest rates. As a result permanent income is higher in this economy when it is able to access international financial markets and can be around 35% higher compared to the closed economy case.</p>
-fsho
+
   <h4>5. Thoughts</h4>
   <p>
     While the consumption risk sharing literature finds small gains from financial openness, that result hinges on the omission of investment dynamics. When countries can run trade imbalances, they stabilize domestic interest rates and allocate capital more effectively in response to shocks. This amplifies the effect of productivity on investment and permanent income, resulting in significant welfare gains. In a simple model, lifetime consumption can increase close to 40% compared to the autarky case.
