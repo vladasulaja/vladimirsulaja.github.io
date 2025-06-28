@@ -162,8 +162,10 @@ stoch_simul(order=1, periods=5000, drop=1000, hp_filter=1600);
 </p>
 
 <p>
-  To see why the previous is true, consider a simple model where we abstract from adjustment costs and fixed interest rate, plus we have no labor in the production function. In this case the capital will be set so that the marginal product of capital \( r = (\alpha k^{\alpha-1}), from where we can get to
-        \( k = (\frac{r}{\alpha})^{\frac{1}{\alpha-1}})
+  To see why the previous is true, consider a simple model where we abstract from adjustment costs and fixed interest rate, plus we have no labor in the production function. In this case the capital will be set so that the marginal product of capital \( r = \left( \alpha a k^{\alpha - 1} \right) \)
+, from where we can get to
+        \( k = \left( \frac{r}{\alpha} \right)^{\frac{1}{\alpha - 1}} a^{\frac{1}{1-\alpha}} \).
+
 </p>
 
 <p>
