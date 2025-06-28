@@ -63,7 +63,7 @@ This page features selected blog articles, models, and code that reflect my work
 <div id="shortpaper1" style="display: none; margin-top: 1rem;">
   <h4>Idea</h4>
   <p>
-    This short article explores how allowing for more financial openness can significantly enhance macroeconomic stability by delinking domestic interest rates from output shocks. I argue that standard consumption risk-sharing literature underestimates the welfare gains from international financial integration by neglecting the investment channel. Using a simple small open economy DSGE model, I demonstrate that allowing for a non-zero trade balance enables economies to better manage interest rate shocks, thus facilitating higher and less volatile investment in response to productivity shifts.
+    This short article explores how allowing for more financial openness can significantly enhance macroeconomic stability by delinking domestic interest rates from productivity shocks. I argue that standard consumption risk-sharing literature underestimates the welfare gains from international financial integration by neglecting the investment channel. Using a simple small open economy DSGE model -- as in Neumayer and Perri 2006 -- I demonstrate that allowing for a non-zero trade balance enables economies to better manage productivity shocks, thus enabling higher investment during booms, and lower drop in investment during busts.
   </p>
 
   <h4>1. Introduction</h4>
@@ -71,7 +71,7 @@ This page features selected blog articles, models, and code that reflect my work
     The literature on international consumption risk sharing has long concluded that the welfare gains from global financial integration are small — often less than 1% of lifetime consumption. Seminal contributions by Lucas (1987), Obstfeld and Rogoff (1995), and more recently Gourinchas and Jeanne (2006) all show that the main benefit of risk sharing arises from the smoothing of consumption over time and states of nature. 
   </p>
   <p>
-    However, these studies typically neglect an important macroeconomic channel: <strong>investment amplification through interest rate smoothing</strong>. When the trade balance is restricted (e.g., balanced every period), countries must finance investment solely through domestic savings. This tight linkage between output, interest rates, and investment introduces fragility and lowers aggregate responsiveness to shocks.
+    However, these studies typically neglect an important macroeconomic channel: <strong>investment amplification through interest rate smoothing</strong>. When the trade balance is restricted (e.g., balanced every period), countries must finance investment solely through domestic savings. In response to a productivity shock, interest rate increases and vice versa during a drop in productivity. 
   </p>
   <p>
     By contrast, when the <strong>trade balance can vary</strong>, countries can borrow during booms (or save during busts) to stabilize interest rates and <strong>optimize capital accumulation</strong>. This mechanism generates a second-round welfare gain that traditional consumption-only models miss.
@@ -159,6 +159,11 @@ stoch_simul(order=1, periods=5000, drop=1000, hp_filter=1600);
 
 <p>
   A flexible trade balance, however, allows a country to <strong>decouple its domestic interest rate from its output</strong>. When domestic output is high, the country can run a trade deficit (import capital), preventing rates from rising too sharply. When output is low, it can run a surplus (export capital), keeping rates from falling too far.
+</p>
+
+<p>
+  To see why the previous is true, consider a simple model where we abstract from adjustment costs and fixed interest rate, plus we have no labor in the production function. In this case the capital will be set so that the marginal product of capital \( r = (\alpha k^{\alpha-1}), from where we can get to
+        \( k = (\frac{r}{\alpha})^{\frac{1}{\alpha-1}})
 </p>
 
 <p>
