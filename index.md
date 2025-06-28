@@ -164,13 +164,9 @@ stoch_simul(order=1, periods=5000, drop=1000, hp_filter=1600);
 <p>
   To see why the previous is true, consider a simple model where we abstract from adjustment costs and fixed interest rate, plus we have no labor in the production function. In this case the capital will be set so that the marginal product of capital \( r = \left( \alpha a k^{\alpha - 1} \right) \)
 , from where we can get to
-        \( k = \left( \frac{r}{\alpha} \right)^{\frac{1}{\alpha - 1}} a^{\frac{1}{1-\alpha}} \).
-
+        \( k = \left( \frac{r}{\alpha} \right)^{\frac{1}{\alpha - 1}} a^{\frac{1}{1-\alpha}} \). The key point is that capital is convex in r, with increases in r inducing smaller drops in k compared to an increase in k for the same decrease in r. Now in closed economy, positive correlation between output and interest rate means that positive and negative shocks will be attennuated. Financial openness works by making the correlation between interest rate and output less positive, and in some cases even negative. Positive shocks in this case are followed by a drop in interest rate and negative by an increase, which due to convexity of capital with respect to interest rates has a smaller effect. So negative correlation increases the response of capital to productivity shocks, but does so asymetrically. 
 </p>
 
-<p>
-  This <strong>interest rate smoothing</strong> leads to higher investment when it's most productive — during times of high productivity shocks. In turn, this amplifies the capital stock in future periods and raises the path of future income. 
-</p>
 
 <p>
   Since <strong>permanent income</strong> is the present value of all future disposable income flows, a more elastic investment response leads to:
