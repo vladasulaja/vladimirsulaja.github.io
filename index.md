@@ -152,25 +152,25 @@ stoch_simul(order=1, periods=5000, drop=1000, hp_filter=1600);
 </code></pre>
 
 
-<h4>4. Mechanism: Interest Rate Smoothing and Permanent Income</h4>
+<h4>4. Mechanism: Interest Rate Correlation and Permanent Income</h4>
 <p>
-  When interest rates rise with output, investment becomes expensive exactly when productivity is high. This distorts the optimal allocation of capital: firms and households want to invest, but are discouraged by high borrowing costs. Conversely, in downturns, interest rates fall but investment opportunities are limited. This procyclicality of interest rates leads to inefficient intertemporal allocation.
+  In a closed economy, when interest rates rise together with productivity shock, investment becomes expensive exactly when productivity is high. This attenuates the response of capital: firms and households want to invest, but are discouraged by high borrowing costs. Conversely, in downturns, interest rates fall, somewhat dampening the negative effect. 
 </p>
 
 <p>
-  A flexible trade balance, however, allows a country to <strong>decouple its domestic interest rate from its output</strong>. When domestic output is high, the country can run a trade deficit (import capital), preventing rates from rising too sharply. When output is low, it can run a surplus (export capital), keeping rates from falling too far.
+  A flexible trade balance, however, allows a country to <strong>decouple the interest rate from its output</strong>. When domestic output is growing, the country can run a trade deficit (import capital), preventing rates from rising too sharply. When output is contracting, it can run a surplus (export capital), keeping rates from falling too far. Additionally, the more negative correlation between output and interest rates increases the response of capital to shocks asymmetrically, further increasing the permanent income.
 </p>
 
 <p>
   To see why the previous is true, consider a simple model where we abstract from adjustment costs and fixed interest rate, plus we have no labor in the production function. In this case the capital will be set so that the marginal product of capital \( r = \left( \alpha a k^{\alpha - 1} \right) \)
 , from where we can get to
-        \( k = \left( \frac{r}{\alpha} \right)^{\frac{1}{\alpha - 1}} a^{\frac{1}{1-\alpha}} \). The key point is that capital is convex in r, with increases in r inducing smaller drops in k compared to an increase in k for the same decrease in r. Now in closed economy, positive correlation between output and interest rate means that positive and negative shocks will be attennuated. Financial openness works by making the correlation between interest rate and output less positive, and in some cases even negative. Positive shocks in this case are followed by a drop in interest rate and negative by an increase, which due to convexity of capital with respect to interest rates has a smaller effect. So negative correlation increases the response of capital to productivity shocks, but does so asymetrically. 
+        \( k = \left( \frac{r}{\alpha} \right)^{\frac{1}{\alpha - 1}} a^{\frac{1}{1-\alpha}} \). The key point is that capital is convex in r, with increases in r inducing smaller drops in k compared to an increase in k for the same decrease in r. In a closed economy, positive correlation between output and interest rate means that positive and negative shocks will be attennuated. Financial openness works by making the correlation between interest rate and output less positive, and in some cases even negative. Positive shocks in this case are followed by a drop in interest rate and negative by an increase, which due to convexity of capital with respect to interest rates has a smaller effect. So negative correlation increases the response of capital to productivity shocks, but does so asymetrically. 
 </p>
 
 <p>
   We can plug also plug in the interest rate equation in our previous equation for capital, and take logs after that to get \[
 \log k = \frac{1}{\alpha - 1} \left( \log(z + \phi_b b_{-1} + \eta a k^\alpha) - \log \alpha \right) + \frac{1}{1 - \alpha} \log a
-\]. We can see here that the higher is the value of \( \eta \), the lower the response of capital is.
+\]. We can see here that the higher is the value of \( \eta \), the lower the response of capital is and vice versa. To observe asymmetrical behaviour it is enought to see the original equation.
 </p>
 
 
@@ -187,7 +187,7 @@ stoch_simul(order=1, periods=5000, drop=1000, hp_filter=1600);
 </p>
 
 <h4>Visual Results</h4>
-<p>The following charts illustrate the quantitative impact of trade balance adjustment on macroeconomic dynamics:</p>
+<p>In the following section we use the model we sketched and simulate all the variables. The following charts illustrate the quantitative impact of trade balance adjustment on macroeconomic dynamics:</p>
 
 <div style="margin-bottom: 2rem;">
   <h5>Investment and Output (HP-Filtered Correlation)</h5>
@@ -204,7 +204,7 @@ stoch_simul(order=1, periods=5000, drop=1000, hp_filter=1600);
   <img src="graphs/present_value.png" alt="Present Value of Output" style="max-width:100%; height:auto; border: 1px solid #ccc; padding: 4px;">
 </div>
 
-<p>One can see that for lower values of eta, interest rate and output have lower correlation. Invesment and output become more correlated as positive productivity shocks are not attenuated by rising interest rates. As a result permanent income is higher in this economy when it is able to access international financial markets and can be around 35% higher compared to the closed economy case.</p>
+<p>One can see that for lower values of \( \eta \), interest rate and output have lower correlation. Invesment and output become more correlated as positive productivity shocks are not attenuated by rising interest rates. As a result permanent income is higher in this economy when it is able to access international financial markets and can be around 35% higher compared to the closed economy case.</p>
 
   <h4>5. Thoughts</h4>
   <p>
