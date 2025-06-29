@@ -170,7 +170,7 @@ stoch_simul(order=1, periods=5000, drop=1000, hp_filter=1600);
 <p>
   We can plug also plug in the interest rate equation in our previous equation for capital, and take logs after that to get \[
 \log k = \frac{1}{\alpha - 1} \left( \log(z + \phi_b b_{-1} + \eta a k^\alpha) - \log \alpha \right) + \frac{1}{1 - \alpha} \log a
-\]. We can see here that the higher is the value of \eta, the lower the response of capital is.
+\]. We can see here that the higher is the value of \[ \eta \], the lower the response of capital is.
 </p>
 
 
