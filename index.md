@@ -213,6 +213,16 @@ stoch_simul(order=1, periods=5000, drop=1000, hp_filter=1600);
 </div>
 </div>
 
+<h5>References</h5>
+<ul>
+  <li>Lucas, R. E. (1987). <i>Models of Business Cycles</i>. Basil Blackwell.</li>
+  <li>Obstfeld, M., & Rogoff, K. (1995). The intertemporal approach to the current account. <i>Handbook of International Economics</i>, <b>3</b>, 1731–1799.</li>
+  <li>Gourinchas, P.-O., & Jeanne, O. (2006). The elusive gains from international financial integration. <i>Review of Economic Studies</i>, <b>73</b>(3), 715–741.</li>
+  <li>Mendoza, E. G. (1991). Real business cycles in a small open economy. <i>American Economic Review</i>, <b>81</b>(4), 797–818.</li>
+  <li>Correia, I., Neves, J. C., & Rebelo, S. (1995). Business cycles in a small open economy. <i>European Economic Review</i>, <b>39</b>(6), 1089–1113.</li>
+  <li>Neumeyer, P. A., & Perri, F. (2005). Business cycles in emerging economies: the role of interest rates. <i>Journal of Monetary Economics</i>, <b>52</b>(2), 345–380.</li>
+</ul>
+
 </div>
 
 <script>
