@@ -167,13 +167,19 @@ stoch_simul(order=1, periods=5000, drop=1000, hp_filter=1600);
         \( k = \left( \frac{r}{\alpha} \right)^{\frac{1}{\alpha - 1}} a^{\frac{1}{1-\alpha}} \). The key point is that capital is convex in r, with increases in r inducing smaller drops in k compared to an increase in k for the same decrease in r. Now in closed economy, positive correlation between output and interest rate means that positive and negative shocks will be attennuated. Financial openness works by making the correlation between interest rate and output less positive, and in some cases even negative. Positive shocks in this case are followed by a drop in interest rate and negative by an increase, which due to convexity of capital with respect to interest rates has a smaller effect. So negative correlation increases the response of capital to productivity shocks, but does so asymetrically. 
 </p>
 
+<p>
+  We can plug also plug in the interest rate equation in our previous equation for capital, and take logs after that to get \[
+\log k = \frac{1}{\alpha - 1} \left( \log(z + \phi_b b_{-1} + \eta a k^\alpha) - \log \alpha \right) + \frac{1}{1 - \alpha} \log a
+\]. We can see here that the higher is the value of \eta, the lower the response of capital is.
+</p>
+
 
 <p>
-  Since <strong>permanent income</strong> is the present value of all future disposable income flows, a more elastic investment response leads to:
+  Since <strong>permanent income</strong> is the present value of all future disposable income flows we have the following permanent income equation.
 </p>
 
 <p style="margin-left: 2rem;">
-  \( PI_t = r \cdot \left(b_t + \sum_{s=t}^{\infty} \frac{y_s - i_s}{(1 + r)^{s-t}} \right) \)
+  \( PI_t = r \cdot \left(b_t + \sum_{s=t}^{\infty} \frac{E_{t} y_s - i_s}{(1 + r_{s})^{s-t}} \right) \)
 </p>
 
 <p>
